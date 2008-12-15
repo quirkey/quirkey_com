@@ -114,6 +114,9 @@ darkblue: 22395B
 .q_blog, a.q_blog:link, a.q_blog:visited {
 	color: #3C6A8F;
 }
+.q_com, a.q_com:link, a.q_com:visited {
+	color: #72391E;
+}
 #links a:hover {
 	color:#333;
 }
