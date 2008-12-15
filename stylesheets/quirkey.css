@@ -1,0 +1,124 @@
+/* Quirkey.css */
+body {
+	font-family: Georgia, Times, serif;
+	background: #FFF;
+	margin: 0px;
+	color: #333;
+}
+h1, h2, h3 { 
+	font-weight:normal;
+}
+h1 {
+	font-size:36px;
+}
+h2 {
+	margin: 10px 0px;
+	font-size: 22px;
+}
+a:link, a:visited {
+	color:#3C6A8F;
+	text-decoration: underline;
+}
+a:hover {
+	color:#333;
+	text-decoration: underline;
+}
+a img {
+	border:1px solid #E5E5E5;
+}
+#container {
+	width: 100%;
+}
+#header {
+	margin: 0px auto;
+	width: 820px;
+	height: 230px;
+	text-align:center;
+	position:relative;
+	background:#FFF;
+}
+#logo {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+#header h1 {
+	color:#797979;
+	font-size: 72px;
+	padding: 70px 0px 0px;
+	margin: 0px auto 10px auto;
+}
+#header h1 a {
+	text-decoration: none;
+}
+span.est {
+	font-size: 16px;
+	color: #CCC;
+}
+
+#footer {
+	border-top: 1px solid #E5E5E5;
+	text-align:center;
+	padding: 10px;
+	font-size: 11px;
+	color: #444;
+}
+#footer .quirkey_links {
+	font-size: 14px;
+}
+#footer .quirkey_links span {
+	padding: 0px 5px;
+	color: #999;
+}
+#main {
+	width: 600px;
+	position: relative;
+	margin: 30px auto;
+	line-height: 140%;
+	color: #444;
+}
+#main strong {
+	font-weight:normal;
+	color: #000;
+}
+#intro {
+	font-size: 18px;
+}
+#links {
+	font-size: 16px;
+}
+#links a {
+	text-decoration: none;
+}
+#links ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 10px 35px;
+}
+#links ul li {
+	padding: 5px 0px;
+}
+/*
+orange: B76C29
+yellow: E2DB73
+lblue: 91AFB1
+darkblue: 22395B
+*/
+
+.q_portfolio, a.q_portfolio:link, a.q_portfolio:visited {
+	color: #B76C29;
+}
+.q_log, a.q_log:link, a.q_log:visited {
+	color: #22395B;
+}
+.q_blog, a.q_blog:link, a.q_blog:visited {
+	color: #3C6A8F;
+}
+#links a:hover {
+	color:#333;
+}
+.clear {
+	font-size: 1px;
+	line-height: 0px;
+	clear:both;
+}
